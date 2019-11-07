@@ -1,0 +1,71 @@
+a:hover {color: red;}
+body {background-image: url(images/Metroid_Samus_Returns_D_Landscape_%5B1280x1024%5D.jpg);
+      background-size: cover;
+      color: lightgray;
+      font-size: 16pt;
+      list-style-type: none;}
+.nav a {color: #fff;
+        display: block;
+        text-decoration: none;
+        transition: .3s background-color;}
+.nav a.active {background-color: #fff;
+               color: #444;
+               cursor: default;}
+.nav a:hover {background-color: #005f5f;}
+.nav li {border: 1px solid #888;
+         font-family: 'Times New Roman', sans-serif;
+         font-size: 1.2em;
+         line-height: 40px;}
+.nav ul {background-color: #444;
+         list-style: none;
+         margin: 0;
+         padding: 0;
+         text-align: center;}
+@media only screen and (max-width: 1024px) {.nav a {color: #fff;
+                                                    display: block;
+                                                    text-decoration: none;
+                                                    transition: .3s background-color;}
+                                            .nav a.active {background-color: #fff;
+                                                           color: #444;
+                                                           cursor: default;}
+                                            .nav a:hover {background-color: #005f5f;}
+                                            .nav li {border: 1px solid #888;
+                                                     font-family: 'Times New Roman', sans-serif;
+                                                     font-size: 1.2em;
+                                                     line-height: 40px;}
+                                            .nav ul {background-color: #444;
+                                                     list-style: none;
+                                                     margin: 0;
+                                                     padding: 0;
+                                                     text-align: center;}
+                                            a:hover {color: white;}
+                                            body {background-image:    url(images/Super%20Mario%20Odyssey%20title.jpg);
+                                                  background-size: cover;
+                                                  color: white;
+                                                  font-size: 16pt;
+                                                  list-style-type: none;}}
+@media only screen and (max-width: 768px) {.nav a {color: #fff;
+                                                   display: block;
+                                                   text-decoration: none;
+                                                   transition: .3s background-color;}
+                                           .nav a.active {background-color: #fff;
+                                                          color: #444;
+                                                          cursor: default;}
+                                           .nav a:hover {background-color: #005f5f;
+                                                         color: white;}
+                                           .nav li {border: 1px solid #888;
+                                                    font-family: 'Times New Roman', sans-serif;
+                                                    font-size: 1.4em;
+                                                    line-height: 50px;
+                                                    width: auto;}
+                                           .nav ul {background-color: #444;
+                                                    list-style: none;
+                                                    margin: 0;
+                                                    padding: 0;
+                                                    text-align: center;}
+                                           a:hover {color: red;}
+                                           body {background-image:             url(images/Metroid_Samus_Returns_D_Potrait_%5B640x1136%5D.jpg);
+                                                 background-size: cover;
+                                                 color: red;
+                                                 font-size: 12.165pt;
+                                                 list-style-type: none;}}
